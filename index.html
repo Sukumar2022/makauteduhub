@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MAKAUT EDUHUB </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body onload="loadFun()">
+
+    <div class="loading" id="load">
+        <img src="./images/loader.gif" alt="" srcset="">
+    </div>
+
+    <div class="links">
+        <p>Tenders</p>
+        <p>Notice</p>
+        <p>Others</p>
+    </div>
+    <nav>
+        <h1>MAKAUT EDUHUB</h1>
+        <ul>
+            <li><a href="#admission"> Admission </a></li>
+            <li><a href="#carrier"> Career </a></li>
+            <li><a href="#student"> Student </a></li>
+            <li><a href="#contact"> Contact Us </a></li>
+        </ul>
+        <span onclick="openNav()"> &#9776 </span>
+    </nav>
+
+    <div class="res-nav" id="res-nav">
+        <span onclick="closeNav()"> &times; </span>
+        <h1>MAKAUT EDUHUB</h1>
+        <ul>
+            <li><a href="#admission"> Admission </a></li>
+            <li><a href="#carrier"> Career </a></li>
+            <li><a href="#student"> Student </a></li>
+            <li><a href="#contact"> Contact Us </a></li>
+        </ul>
+       
+    </div>
+
+
+
+    <div class="banner" data-aos="fade-up">
+        <img src="images/banner.png" alt="image1" srcset="">
+        <h2>“Computers are good <br> at following instructions,<br> but not at reading your mind.”</h2>
+    </div>
+
+    <div class="banner_ad" id="admission">
+        <button> Online Admission </button>
+        <button> Offline Admission </button>
+    </div>
+    <div class="banner-2">
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+            <img src="images/word.png" alt="" srcset="">
+            <img src="images/letter-c.png" alt="" srcset="">
+            <img src="images/hashtag.png" alt="" srcset="">
+            <img src="images/html-5.png" alt="" srcset="">
+            <img src="images/java.png" alt="" srcset="">
+            <img src="images/python.png" alt="" srcset="">
+        </div>
+    </div>
+
+    <div class="carrer" id="carrier">
+        <div class="left">
+            <h1>Career in MAKAUT </h1>
+            <p> Build Your First Career With Us </p>
+        </div>
+        <div class="right">
+            <p></p>
+            <button> Enroll Now </button>
+            <button> Documentry </button>
+        </div>
+    </div>
+    <div class="quates">
+        <div class="q-card" style="background-image:linear-gradient(45deg,
+                rgba(238, 228, 228, 0.61),
+                rgba(36, 134, 247, 0.75)), url('./images/pichai.jpg');
+        background-size: 100% 100%;"  data-aos="fade-down">
+            <h2>"Wear your failures as badge of honor"</h2>
+        </div>
+        <div class="q-card" style="background-image:linear-gradient(45deg,
+                rgba(236, 236, 240, 0.623),
+                rgba(36, 134, 247, 0.75)), url('./images/swami.jpg');
+        background-size: 100% 100%;"  data-aos="fade-down">
+            <h2>"Education is the manifestation of the perfection already in man"</h2>
+        </div>
+    </div>
+
+
+    <div class="banner3">
+        <img src="./images/lfh.png" alt="" data-aos="fade-up"
+        data-aos-duration="800">
+        <p>
+            Learn From Home  <br> with MAKAUT HUB
+            <br>
+            <a href="./lfh/index.php"><button> Enroll Now </button></a>
+        </p>
+    </div>
+
+    <div class="login" id="student">
+        <img src="./images/login.jpg" alt="" srcset="">
+        <div class="login-frm">
+            <p>Login</p>
+            <form action="" method="post">
+                <input type="text" name="" placeholder="Username" id=""><br>
+                <input type="password" name="" placeholder="Password" id=""><br>
+                <button> Login </button><br>
+                <a href="" target="_blank" rel="noopener noreferrer"> Forget Password........... </a>
+            </form>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="title">
+            <label>Contact us</label>
+            <br><br>
+            <p>
+                Maulana Abul Kalam Azad University <br>
+                of Technology<br>
+                Haringhata, Nadia<br>
+                Contact No. 1234567890/0987654321<br>
+                Email. makauteduhub@gmail.com
+
+            </p>
+        </div>
+        <div class="contact-frm">
+            <form action="" method="post">
+                <input type="text" name="" placeholder="Name" id=""><br>
+                <input type="email" name="" placeholder="Email" id=""><br>
+                <textarea name="" id="" placeholder="Write Your Message Here......."></textarea><br>
+                <button> Submit </button><br>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p> &copy; All Rights Reserved. MAKAUT EDUHUB | 2022 </p> 
+        <p> Design & Maintain By. Sukumar Mondal </p>
+    </footer>
+
+
+
+    <script>
+        AOS.init();
+        var loader=document.getElementById('load');
+        function loadFun(){
+            loader.style.display='none';
+        }
+      </script>
+</body>
+</html>

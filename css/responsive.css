@@ -1,0 +1,107 @@
+@media (max-width:985px) {
+    nav ul{
+        display: none;
+    }
+    nav span{
+        display: block;
+    }
+    .banner-2 .container{
+        width: 950px;
+    }
+    .container img{
+        height: 110px;
+        width: 110px;
+    }
+}
+@media (max-width:790px){
+    .banner h2{   
+        font-size: 38px;
+        text-align: center;
+    }
+    .banner-2 .container{
+        width: 700px;
+        max-height: auto;
+    }
+    .container img{
+        height: 88px;
+        width: 88px;
+    }
+    .carrer{
+        justify-content: center;
+    }
+    .quates{
+        height: 110vh;
+    }
+    .quates .q-card{
+        height: 380px;
+        width: 380px;
+    }
+    .banner3 img{
+        height: 400px;
+        width: 400px;
+    }
+    .login img {
+        height: 380px;
+        width: 450px;
+    }
+    .login .login-frm {
+        height: 328px;
+        width: 450px;
+    }
+}
+@media (max-width:410px) {
+
+    .pop-up .box {
+        height: 235px;
+        width: 340px;
+    }
+    
+    nav h1{
+        font-size: 15px;
+    }
+    .res-nav h1{
+        font-size: 23px;
+    }
+    .banner img{   
+       height: 330px;
+       width: 330px;
+    }
+    .banner h2{   
+        font-size: 33px;
+        text-align: center;
+    }
+    .banner-2 .container{
+        width: 380px;
+        height: 400px;
+    }
+    .carrer .left h1{
+        font-size: 50px;
+    }
+    .quates .q-card{
+        height: 380px;
+        width: 360px;
+    }
+    .banner3 img{
+        height: 380px;
+        width: 380px;
+    }
+    .banner3 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .login .login-frm {
+        height: 333px;
+        
+    }
+}
+
+@media (max-width:395px){
+    .login .login-frm {
+        height: 386px;
+        width: 450px;
+    }
+    .banner h2{   
+        font-size: 30px;
+        text-align: center;
+    }
+}
